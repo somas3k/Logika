@@ -1,4 +1,4 @@
-# Logika
+# Zadanie 3
 
 CZEŚĆ 1:<br>
   Kompilacja:<br> czesc1.cpp: g++ czesc1.cpp -o ciag<br>
