@@ -1,0 +1,20 @@
+#!/bin/bash
+arg1=( 2 -2 3 10 1 11 )
+arg2=( 4 -4 6 20 5 22 )
+arg3=( 8 -8 12 40 10 44 )
+arg4=( 16 -16 24 80 20 88 )
+arg5=( 32 -32 48 160 40 176 )
+arg6=( 64 -64 96 320 80 352 )
+res=( 1 0 1 1 1 1 )
+
+for ind in `seq 0 5`; do
+	out=`./ciag ${arg1[$ind]} ${arg2[$ind]} ${arg3[$ind]} ${arg4[$ind]} ${arg5[$ind]} ${arg6[$ind]}`
+	if [ "$out" != "${res[$ind]}" ]
+	then
+		echo "input" ${arg1[$ind]} ${arg2[$ind]} ${arg3[$ind]} ${arg4[$ind]} ${arg5[$ind]} ${arg6[$ind]}
+		echo "output actual" $out
+		echo "output expected" ${res[$ind]}
+	else
+		echo "Test completed successfully!!"
+	fi
+done
