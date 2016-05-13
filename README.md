@@ -1,16 +1,16 @@
 # Logika
 
-CZEŚĆ 1:
-  Kompilacja: czesc1.cpp: g++ czesc1.cpp -o ciag
-              czesc1_neg.cpp: g++ czesc1_neg.cpp -o ciag
+CZEŚĆ 1:<br>
+  Kompilacja:<br> czesc1.cpp: g++ czesc1.cpp -o ciag<br>
+              czesc1_neg.cpp: g++ czesc1_neg.cpp -o ciag<br><br>
               
-  Przykładowe wywołanie:
-              ./ciag 2 4 8 16 32 64
-  Skrypt "test" posiada zdefiniowaną nazwę programu wykonywalnego "ciag".
+  Przykładowe wywołanie:<br>
+              ./ciag 2 4 8 16 32 64<br>
+  Skrypt "test" posiada zdefiniowaną nazwę programu wykonywalnego "ciag".<br><br><br>
     
     
-CZEŚĆ 2:
-  Kompilacja:
-              g++ czesc2.cpp -std=c++11 -o game
-  Przykładowe wywołanie:
+CZEŚĆ 2:<br>
+  Kompilacja:<br>
+              g++ czesc2.cpp -std=c++11 -o game<br>
+  Przykładowe wywołanie:<br>
               ./game --impl impl.txt --not not.txt --and and.txt --or or.txt
